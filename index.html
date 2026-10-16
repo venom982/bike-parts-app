@@ -30,5 +30,16 @@
   <div id="partsList"></div>
 
   <script src="app.js"></script>
+
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("/bike-parts-app/sw.js")
+        .then(() => console.log("Offline support enabled"))
+        .catch((error) => console.error("Service Worker error:", error));
+    });
+  }
+</script>
+
 </body>
 </html>
