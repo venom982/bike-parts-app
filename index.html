@@ -5,11 +5,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bike Parts Stock Management</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Bike Parts Stock Management</h1>
-  <h2>Bike Parts App</h2>
-  <p>Welcome to your stock management app!</p>
-  <p>Currency: Pakistani Rupees (PKR)</p>
+
+  <h2>Total Stock Value</h2>
+  <h2 id="totalValue">Rs. 0</h2>
+
+  <h2>Add New Part</h2>
+  <form id="partForm">
+    <p><input id="partName" placeholder="Part Name" required></p>
+    <p><input id="partQty" type="number" min="1" placeholder="Quantity" required></p>
+    <p><input id="purchasePrice" type="number" min="0" placeholder="Purchase Price (PKR)" required></p>
+    <p><input id="salePrice" type="number" min="0" placeholder="Sale Price (PKR)" required></p>
+    <button type="submit">Add Part</button>
+  </form>
+
+  <h2>My Stock</h2>
+  <div id="partsList"></div>
+
+  <script src="app.js"></script>
 </body>
 </html>
