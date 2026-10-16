@@ -1,1 +1,14 @@
 
+{
+  "id": "/bike-parts-app/",
+  "name": "Bike Parts Stock Management",
+  "short_name": "Bike Parts",
+  "description": "Offline bike parts inventory and stock management in Pakistani Rupees.",
+  "start_url": "/bike-parts-app/",
+  "scope": "/bike-parts-app/",
+  "display": "standalone",
+  "background_color": "#f1f5f9",
+  "theme_color": "#123b2a",
+  "orientation": "portrait"
+}
+
