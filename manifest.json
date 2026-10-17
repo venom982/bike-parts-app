@@ -1,0 +1,26 @@
+
+{
+  "id": "/bike-parts-app/",
+  "name": "Dost Corporation Bike Parts Management",
+  "short_name": "Dost Parts",
+  "description": "Dost Corporation bike parts stock, billing and expense management in Pakistani Rupees.",
+  "start_url": "/bike-parts-app/",
+  "scope": "/bike-parts-app/",
+  "display": "standalone",
+  "background_color": "#f1f5f9",
+  "theme_color": "#123b2a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
